@@ -27,9 +27,9 @@ const CATEGORIES = [
     page: 1, fetching: false,
   },
   {
-    rowId: 'row-kollywood',
+    rowId: 'row-tamil',
     label: 'Tamil Song',
-    queries: ['kollywood hits 2024', 'arijit singh latest', 'new tamil songs 2026', 'tamil popular'],
+    queries: ['kollywood hits 2026', 'tamil latest', 'new tamil songs 2026', 'tamil popular'],
     page: 1, fetching: false,
   },
   {
@@ -41,7 +41,7 @@ const CATEGORIES = [
   {
     rowId: 'row-global',
     label: 'Global Top Charts',
-    queries: ['top english hits 2024', 'billboard hot 100', 'pop hits 2024', 'trending english songs'],
+    queries: ['top english hits 2026', 'billboard hot 100', 'pop hits 2024', 'trending english songs'],
     page: 1, fetching: false,
   },
   {
