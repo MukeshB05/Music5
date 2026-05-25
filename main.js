@@ -63,7 +63,7 @@ const CATEGORIES = [
   {
     rowId: 'row-malayalam-devotional',
     label: 'Malayalam Devotional',
-    queries: ['malayalam devotional Songs', 'ganesh sundaram songs', 'Karimala Mukalil Kudi', 'retro bollywood 90s', 'mohammad rafi songs'],
+    queries: ['malayalam devotional', 'Unaroo Unaroo', 'Karimala Mukalil Kudi', 'Shankara Soonu', 'Ponnu Pambayil', 'Parassinideepam'],
     page: 1, fetching: false,
   },
 ];
