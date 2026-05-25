@@ -718,7 +718,7 @@ export function updatePlayerUI(song) {
   syncPlayerLike();
   updateGlow(song.image);
   extractAndSetColors(song.image);
-  document.title = `${decode(song.title)} — Clash Musics`;
+  document.title = `${decode(song.title)} — Mukesh Music 4u`;
 
   // Now Playing overlay
   const npArt   = $('#np-art');
