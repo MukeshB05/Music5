@@ -1,0 +1,41 @@
+{
+  "name": "music5",
+  "version": "2.0.0",
+  "description": "Music5 Proxy Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node server.test.js && jest"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": [
+    "music5",
+    "hifi",
+    "proxy"
+  ],
+  "author": "Mukesh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MukeshB05/Music5.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MukeshB05/Music5/issues"
+  },
+  "homepage": "https://github.com/MukeshB05/Music5#readme",
+  "dependencies": {
+    "axios": "^1.16.1",
+    "playwright": "^1.60.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.5",
+    "babel-jest": "^30.4.1",
+    "jest": "^30.4.2",
+    "jest-environment-jsdom": "^30.4.1"
+  }
+}
