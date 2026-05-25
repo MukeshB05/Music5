@@ -29,13 +29,13 @@ const CATEGORIES = [
   {
     rowId: 'row-tamil',
     label: 'Tamil Song',
-    queries: ['kollywood hits 2026', 'tamil latest', 'new tamil songs 2026', 'tamil popular'],
+    queries: ['tamil hits 2026', 'tamil latest', 'new tamil songs 2026', 'tamil popular'],
     page: 1, fetching: false,
   },
   {
     rowId: 'row-malayalam',
     label: 'Malayalam Song',
-    queries: ['malayalam hits 2026', 'latest', 'new malayalam songs 2026', 'malayalam popular'],
+    queries: ['malayalam 2026', 'malayalam', 'new malayalam songs 2026', 'malayalam popular'],
     page: 1, fetching: false,
   },
   {
