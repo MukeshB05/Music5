@@ -446,7 +446,7 @@ function createSongCard(song, list, idx, playlistId = null) {
   // Share
   card.querySelector('.song-card__share-btn').addEventListener('click', (e) => {
     e.stopPropagation();
-    const url = `https://clashmusic.ajisth007.workers.dev/?songId=${song.id}`;
+    const url = `https://mukeshmusic4u.vercel.app/?songId=${song.id}`;
     navigator.clipboard.writeText(url).then(() => {
       showToast('Link copied to clipboard!', 'ph ph-link');
     });
