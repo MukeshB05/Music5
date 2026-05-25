@@ -35,7 +35,7 @@ const CATEGORIES = [
   {
     rowId: 'row-malayalam',
     label: 'Malayalam Song',
-    queries: ['malayalam hits 2026', 'arijit singh latest', 'new malayalam songs 2026', 'bollywood popular'],
+    queries: ['malayalam hits 2026', 'latest', 'new malayalam songs 2026', 'malayalam popular'],
     page: 1, fetching: false,
   },
   {
