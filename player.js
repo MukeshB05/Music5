@@ -330,7 +330,7 @@ function setMediaSession(song) {
   navigator.mediaSession.metadata = new MediaMetadata({
     title:   decode(song.title),
     artist:  decode(song.artist),
-    album:   decode(song.album || 'Clash Musics'),
+    album:   decode(song.album || 'Mukesh Music4u'),
     artwork: [{ src: song.image, sizes: '500x500', type: 'image/jpeg' }],
   });
 }
