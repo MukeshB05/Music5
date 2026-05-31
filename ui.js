@@ -660,7 +660,7 @@ function showPlaylists() {
     shareBtn.addEventListener('click', () => {
       const ids = p.songs.map(s => s.id);
       const b64 = btoa(JSON.stringify(ids));
-      const url = `https://clashmusic.ajisth007.workers.dev/?pName=${encodeURIComponent(p.name)}&pData=${encodeURIComponent(b64)}`;
+      const url = `https://mukeshmusic4u.vercel.app/?pName=${encodeURIComponent(p.name)}&pData=${encodeURIComponent(b64)}`;
       navigator.clipboard.writeText(url).then(() => {
         showToast('Playlist link copied!', 'ph ph-link');
       });
@@ -718,7 +718,7 @@ export function updatePlayerUI(song) {
   syncPlayerLike();
   updateGlow(song.image);
   extractAndSetColors(song.image);
-  document.title = `${decode(song.title)} — Mukesh Music 4u`;
+  document.title = `${decode(song.title)} — Mukesh Music4u`;
 
   // Now Playing overlay
   const npArt   = $('#np-art');
@@ -1242,7 +1242,7 @@ export function initUI() {
   const execShare = () => {
     const s = Player.getCurrentSong();
     if (!s) { showToast('No song selected', 'ph ph-warning-circle'); return; }
-    const url = `https://clashmusic.ajisth007.workers.dev/?songId=${s.id}`;
+    const url = `https://mukeshmusic4u.vercel.app/?songId=${s.id}`;
     navigator.clipboard.writeText(url).then(() => showToast('Link copied!', 'ph ph-link'));
   };
   $('#player-share-btn')?.addEventListener('click', execShare);
